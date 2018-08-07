@@ -1,0 +1,14 @@
+img {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.imageContainer {
+  border: 5px solid rgba(87, 222, 23, 1);
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
