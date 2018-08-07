@@ -1,0 +1,13 @@
+img, embed, object, video {
+  max-width: 100%;
+}
+
+/* small screens */
+@media screen and (min-width: 300px) {
+
+}
+
+/* medium & large screens */
+@media screen and (min-width: 660px) {
+  
+}
