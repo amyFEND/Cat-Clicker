@@ -13,7 +13,7 @@ img {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 
 .imageContainer {
