@@ -3,8 +3,10 @@ body {
 }
 
 img {
-  width: 500px;
-  height: 500px;
+  max-width: 600px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -12,7 +14,8 @@ img {
 
 .imageContainer {
   border: 5px solid rgba(87, 222, 23, 1);
-  width: 700px;
+  width: 600px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
