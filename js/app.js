@@ -9,6 +9,10 @@ function clickedCat () {
   console.log(`moves = ${clicks}`);
 
   $('.numClicks').html(clicks);
+
+  if (clicks > 0) {
+    $('.clickContainer').removeClass('hidden');
+  }
 }
 
 function toggleAbout () {

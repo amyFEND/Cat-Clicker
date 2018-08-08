@@ -12,6 +12,10 @@ img {
   display: block;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .imageContainer {
   border: 5px solid rgba(87, 222, 23, 1);
   width: 600px;
