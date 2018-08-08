@@ -17,4 +17,5 @@ function clickedCat () {
 
 function toggleAbout () {
   console.log('about clicked!');
+  $('.aboutModal').toggleClass('hidden');
 }
