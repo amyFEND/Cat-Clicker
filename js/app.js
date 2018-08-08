@@ -13,6 +13,7 @@ function clickedCat () {
 
   if (clicks > 0) {
     $('.clickContainer').removeClass('hidden');
+    $('.catName').removeClass('hidden');
   }
 }
 
