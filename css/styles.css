@@ -20,6 +20,16 @@ img {
   margin-right: auto;
 }
 
+.clickContainer {
+  border: 2px solid blue;
+  width: 150px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
 .aboutContainer {
   width: 200px;
   border: 1px solid red;
