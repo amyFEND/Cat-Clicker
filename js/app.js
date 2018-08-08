@@ -1,7 +1,7 @@
 let clicks = 0;
 
 $('.catImg').click(clickedCat);
-$('.aboutHeader').click(toggleAbout);
+$('.aboutHeader').hover(toggleAbout);
 
 function clickedCat () {
   clicks++;
@@ -18,6 +18,5 @@ function clickedCat () {
 }
 
 function toggleAbout () {
-  console.log('about clicked!');
-  $('.aboutModal').toggleClass('hidden');
+  $('.aboutModal').toggleClass('hide');
 }
