@@ -2,7 +2,7 @@ body {
   font-family: Century Gothic, sans-serif;
 }
 
-img {
+.catImg {
   max-width: 600px;
   max-height: 400px;
   width: auto;

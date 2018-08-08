@@ -9,6 +9,7 @@ function clickedCat () {
   console.log(`moves = ${clicks}`);
 
   $('.numClicks').html(clicks);
+  $('.catImg').toggleClass('hidden');
 
   if (clicks > 0) {
     $('.clickContainer').removeClass('hidden');
