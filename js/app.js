@@ -9,11 +9,12 @@ function clickedCat () {
   console.log(`moves = ${clicks}`);
 
   $('.numClicks').html(clicks);
-  $('.catImg').toggleClass('hidden');
+  // $('.catImg').toggleClass('hide');
 
   if (clicks > 0) {
     $('.clickContainer').removeClass('hidden');
     $('.catName').removeClass('hidden');
+    $('.starterCat').addClass('hide')
   }
 }
 
