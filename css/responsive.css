@@ -3,11 +3,28 @@ img, embed, object, video {
 }
 
 /* small screens */
-@media screen and (min-width: 300px) {
-
+@media screen and (max-width: 500px) {
+  .choiceOfCatsContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* medium & large screens */
-@media screen and (min-width: 660px) {
+@media screen and (max-width: 835px) {
+  .catClicker {
+    background-color: pink;
+  }
 
+  .selectedCatContainer {
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .choiceOfCatsContainer {
+    order: 2;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
