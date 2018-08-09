@@ -28,6 +28,11 @@ img {
   margin-right: auto;
 }
 
+.catName {
+  text-align: center;
+  display: block;
+}
+
 .clickContainer {
   border: 2px solid blue;
   width: 150px;
