@@ -35,3 +35,15 @@ function nextCatName() {
     nameIndex = (nameIndex + 1) % (catNameArray.length);
 }
 
+/* Testing Space */
+
+// let cats = [];
+// cats[0] = 'img/kitty-in-cup.jpg';
+// cats[1] = 'img/sneaky-kitty.jpg';
+//
+// let imgIndex = 0;
+//
+// function nextCatImage() {
+//     $('img').html(cats[imgIndex]);
+//     imgIndex = (imgIndex + 1) % (cats.length);
+// }
