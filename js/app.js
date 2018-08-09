@@ -1,6 +1,6 @@
 let clicks = 0;
 
-$('.catImg').click(clickedCat);
+$('img').click(clickedCat);
 $('.aboutHeader').hover(toggleAbout);
 
 function clickedCat () {
